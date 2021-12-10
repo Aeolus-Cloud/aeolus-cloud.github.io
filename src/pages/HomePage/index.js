@@ -68,17 +68,17 @@ const HomePage = () => {
         ) : (
             <Layout>
                 <Header/>
-                <ModalStarGithub open={open} handleClose={handleClose}/>
-                <ModalSupport open={openSupport} handleClose={handleCloseSupport}/>
+                {/* <ModalStarGithub open={open} handleClose={handleClose}/>
+                <ModalSupport open={openSupport} handleClose={handleCloseSupport}/> */}
 
                 <Container>
                     <HeroContainer/>
                     <AboutContainer/>
                     <ServidorContainer/>
-                    <FrontendContainer/>
-                    <DockerContainer/>
-                    <ApoiarContainer/>
-                    <SupportContainer handleOpenSupport={handleOpenSupport}/>
+                    {/* <FrontendContainer/> */}
+                    {/* <DockerContainer/> */}
+                    {/* <ApoiarContainer/> */}
+                    {/* <SupportContainer handleOpenSupport={handleOpenSupport}/> */}
                     <Footer/>
                 </Container>
             </Layout>

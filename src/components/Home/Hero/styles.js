@@ -101,13 +101,14 @@ export const HeroButton = styled.a`
 
 export const ImageHero = styled.div`
   width: 100%;
-  height: 500px;
+  height: 700px;
   margin-top: 3em;
   margin-bottom: 3em;
   max-width: 1000px;
 
   @media (max-width: 768px) {
     height: 300px;
+    object-fit: cover;
   }
 
   img {

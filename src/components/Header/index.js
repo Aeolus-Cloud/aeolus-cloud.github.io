@@ -7,26 +7,26 @@ const Header = () => {
         <Layout>
             <Container>
                 <LogoWPP>
-                    WPP<b>Connect</b>
+                    Aeolus<b>Cloud</b>
                 </LogoWPP>
 
                 <Buttons>
                     <ul className="secondary-nav">
                         <li>
                             <Link
-                                href="https://wppconnect-team.github.io/wppconnect/"
+                                href="https://github.com/Aeolus-Cloud"
                                 target={"_blank"}
                             >
-                                Documentação
+                                Organização
                             </Link>
                         </li>
 
                         <li className={"donate"}>
                             <Link
-                                href="https://apoia.se/wppconnect"
+                                href="#"
                                 target={"_blank"}
                             >
-                                Apoie-nos
+                                Gerenciador de licenças
                             </Link>
                         </li>
                     </ul>

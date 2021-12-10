@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {Layout} from "./styles";
-import Logo from "../../assets/logo-wpp.png";
+import Logo from "../../assets/logo.png";
 
 const SplashScreen = () => {
     return (

@@ -15,7 +15,7 @@ const SupportContainer = ({handleOpenSupport}) => {
                     Você está pronto?
                 </Title>
                 <Subtitle>
-                    Somos profissionais com vasto conhecimento que colaboram em uma biblioteca OpenSource.
+                    Somos profissionais com vasto conhecimento que colaboram em soluções em núvem.
                 </Subtitle>
 
                 <RepeaterWeDo>

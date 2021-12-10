@@ -15,7 +15,7 @@ const ServidorContainer = () => {
                             Servidor Robusto
                         </Title>
                         <Subtitle>
-                            Um servidor simples e robusto feito em NodeJS, com todas as funções que o WPPConnect oferece.
+                            Um servidor simples e robusto feito com Java.
                         </Subtitle>
 
                         <HeroButton href={"https://github.com/wppconnect-team/wppconnect-server"} target={"_blank"} rel={"noreferrer"}>

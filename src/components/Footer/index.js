@@ -1,13 +1,13 @@
 import React from 'react';
-import {Container, Layout} from "./style";
-import {GitHub, MessageCircle, Youtube} from "react-feather";
+import { Container, Layout } from "./style";
+import { GitHub, MessageCircle, Youtube } from "react-feather";
 
 const Footer = () => {
     return (
         <Layout>
             <Container>
                 <h2>
-                    WPPConnect
+                    Aeolus Cloud
                 </h2>
 
                 <div className={"main"}>
@@ -15,23 +15,23 @@ const Footer = () => {
                         <h3>Recursos</h3>
                         <nav>
                             <li>
-                                <a href={"https://github.com/wppconnect-team/wppconnect"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    WhatsApp Lib
+                                <a href={"#"} rel={"noreferrer"}
+                                    target={"_blank"}>
+                                    Evidence Software
                                 </a>
                             </li>
 
                             <li>
-                                <a href={"https://github.com/wppconnect-team/wppconnect-server"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    Servidor
+                                <a href={"#"} rel={"noreferrer"}
+                                    target={"_blank"}>
+                                    Camera Manager
                                 </a>
                             </li>
 
                             <li>
-                                <a href={"https://github.com/wppconnect-team/wppconnect-frontend"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    FrontEnd
+                                <a href={"#"} rel={"noreferrer"}
+                                    target={"_blank"}>
+                                    Agent Software
                                 </a>
                             </li>
                         </nav>
@@ -44,21 +44,13 @@ const Footer = () => {
                         <nav>
                             <li>
                                 <a href={"https://discord.gg/JU5JGGKGNG"} rel={"noreferrer"}
-                                   target={"_blank"}>
+                                    target={"_blank"}>
                                     Discord
                                 </a>
                             </li>
-
-                            <li>
-                                <a href={"https://chat.whatsapp.com/C1ChjyShl5cA7KvmtecF3L"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    Grupo WhatsApp
-                                </a>
-                            </li>
-
                             <li>
                                 <a href={"https://apoia.se/wppconnect"} rel={"noreferrer"}
-                                   target={"_blank"}>
+                                    target={"_blank"}>
                                     Apoia-se
                                 </a>
                             </li>
@@ -71,18 +63,18 @@ const Footer = () => {
                         </h3>
                         <nav>
                             <li>
-                                <a href={"https://github.com/wppconnect-team"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    <GitHub/>
+                                <a href={"https://github.com/Aeolus-Cloud"} rel={"noreferrer"}
+                                    target={"_blank"}>
+                                    <GitHub />
                                 </a>
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <a href={"https://www.youtube.com/channel/UCD7J9LG08PmGQrF5IS7Yv9A"} rel={"noreferrer"}
-                                   target={"_blank"}>
-                                    <Youtube/>
+                                    target={"_blank"}>
+                                    <Youtube />
                                 </a>
-                            </li>
+                            </li> */}
                         </nav>
                     </div>
                 </div>
